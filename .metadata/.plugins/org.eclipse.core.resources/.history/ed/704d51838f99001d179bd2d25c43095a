@@ -1,0 +1,11 @@
+package shopManagment;
+
+public class Employee {
+	private int id;
+	private String name;
+	private float salary;
+	private String address;
+	private String designation;
+	private Shop shop_id;
+	private LocalDate dob;
+}

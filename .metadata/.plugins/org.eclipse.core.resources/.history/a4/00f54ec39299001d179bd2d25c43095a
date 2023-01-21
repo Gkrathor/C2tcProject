@@ -1,0 +1,9 @@
+package shopManagment;
+
+public class ShopOwner {
+	 private int id;
+	    private String name;
+	    private String address;
+	    private Shop shop_id;
+	    private String dob;
+}

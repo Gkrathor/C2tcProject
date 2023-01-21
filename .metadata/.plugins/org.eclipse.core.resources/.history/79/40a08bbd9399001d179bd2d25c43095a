@@ -1,0 +1,11 @@
+package shopManagment;
+
+public class Item {
+	private long id;
+    private String name;
+    private String manufacturing;
+    private String expiry;
+    private float price;
+    private String category;
+   
+}

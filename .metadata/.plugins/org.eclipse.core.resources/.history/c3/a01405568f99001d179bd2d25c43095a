@@ -1,0 +1,10 @@
+package ItemManagment;
+
+public class Item {
+	private long id;
+    private String name;
+    private float price;
+    private String category;
+    private LocalDate manufacturing;
+    private LocalDate expiry;
+}

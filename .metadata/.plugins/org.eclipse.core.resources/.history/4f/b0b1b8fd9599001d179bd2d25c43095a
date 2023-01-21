@@ -1,0 +1,11 @@
+package CustomerUser;
+
+public class Mall {
+	private long Id;
+    private MallAdmin mallAdmin;
+    private String mallName;
+    private String location;
+    private List<Shop> shops_id;
+    private List<String> categories;
+
+}

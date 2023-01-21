@@ -1,0 +1,10 @@
+package Customer;
+import shopManagment.*;
+public class OrderDetails {
+	private int id;
+    private String dateOfPurchase;
+    private float total;
+    private Customer customer_id;
+    private String paymentMode;
+    private Shop shop_id;
+}

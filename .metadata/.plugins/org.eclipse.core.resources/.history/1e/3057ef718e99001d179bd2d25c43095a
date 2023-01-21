@@ -1,0 +1,15 @@
+package shopManagment;
+
+public class Shop {
+	    private int shopId;
+	    private String shopCategory;
+	    private String shopName;
+	    private String customers;
+	    private String shopStatus;
+	    private String leaseStatus;
+	    private ShopOwner shopOwner;
+	    private Employee shopEmployeeID;
+
+	    
+
+}
