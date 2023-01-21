@@ -1,6 +1,8 @@
 package MallManagment;
 import shopManagment.*;
 import java.util.*;
+
+import CustomerUser.MallAdmin;
 public class Mall {
 	private long Id;
     private MallAdmin mallAdmin;
