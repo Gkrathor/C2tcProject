@@ -1,7 +1,9 @@
 package com.tns.user;
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import javax.persistence.Table;
 @Entity
+@Table(name="user")
 public class User {
 	@Id
 	private Integer id;
@@ -10,7 +12,7 @@ public class User {
 	private String password;
 	public User() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 	public User(Integer id, String name, String type, String password) {
 		super();
@@ -43,12 +45,6 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	@Override
-	public String toString() {
-		return "User [id=" + id + ", name=" + name + ", type=" + type + ", password=" + password + ", getId()="
-				+ getId() + ", getName()=" + getName() + ", getType()=" + getType() + ", getPassword()=" + getPassword()
-				+ ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + ", toString()=" + super.toString()
-				+ "]";
-	}
+	
 	
 }
